@@ -1,0 +1,111 @@
+{
+    "[vue]": {
+  
+  
+      "editor.defaultFormatter": "octref.vetur"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[markdown]": {
+      "editor.formatOnSave": false
+    },
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact"
+    ],
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatterOptions": {
+      "js-beautify-html": {
+        // "wrap_attributes": "force-aligned" // #vue组件中html代码格式化样式
+        "wrap_attributes": "auto",
+        "wrap_line_length":120,
+        "end_with_newline": false
+      },
+      "prettyhtml": {
+        "printWidth": 280,
+        "singleQuote": true, //  #使用单引号替代双引号
+        "wrapAttributes": false,
+        "sortAttributes": true
+      },
+      "prettier": {
+        "semi": false, // 分号
+        "singleQuote": true
+      },
+    },
+    "editor.tabSize": 2,
+    "vetur.validation.template": false,
+    "git.ignoreLimitWarning": true,
+    // #每次保存的时候将代码按eslint格式进行修复
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "git.confirmSync": false,
+    "eslint.quiet": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "typescript.format.insertSpaceAfterConstructor": true,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "typescript.preferences.quoteStyle": "single",
+    "html.format.wrapAttributes": "force-expand-multiline",
+    "editor.formatOnSave": true,
+    "prettier.vueIndentScriptAndStyle": true,
+    "prettier.singleQuote": true,
+    "prettier.useTabs": true,
+    "files.associations": {
+      "*.cjson": "jsonc",
+      "*.wxss": "css",
+      "*.wxs": "javascript"
+    },
+    // 添加 vue 支持
+    // "vetur.format.defaultFormatter.html": "js-beautify-html",
+    // "vetur.format.defaultFormatterOptions": {
+    //   "js-beautify-html": {
+    //     "wrap_attributes": "force-aligned" // #vue组件中html代码格式化样式
+    //   },
+    //   "prettyhtml": {
+    //     "printWidth": 700,
+    //     "singleQuote": false, //  #使用单引号替代双引号
+    //     "wrapAttributes": false,
+    //     "sortAttributes": true
+    //   },
+    //   "prettier": {
+    //     "semi": false, // 分号
+    //     "singleQuote": true
+    //   },
+    //   // "vetur.format.defaultFormatter.js": "vscode-typescript"
+    // },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+      "wxml": "html",
+      "javascript": "javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx",
+      "vue": "html",
+      "vue-html": "html"
+    },
+    // 是否强制单引号
+    // 不要分号
+    "fileheader.customMade": {
+      "Author": "lc",
+      "Date": "Do not edit",
+      "LastEditors": "lc",
+      "LastEditTime": "Do not edit",
+      "Description": "fileContent"
+    },
+    "git.autofetch": true,
+    "turboConsoleLog.quote": "'",
+    "turboConsoleLog.insertEnclosingClass": false,
+    "minapp-vscode.disableAutoConfig": true,
+    "git.enableSmartCommit": true,
+    "beautify.config": "",
+    "search.followSymlinks": false,
+    "workbench.editor.enablePreview": false,
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+  }
